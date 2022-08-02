@@ -303,7 +303,7 @@ main {
   padding: 20px;
   overflow-x: hidden;
   height: 500vh;
-  padding-bottom: 400px;
+  padding-bottom: 100px;
 }
 
 #make {
@@ -324,7 +324,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 50px;
-  left: 2vw;
+  left: 5vw;
 }
 
 #container button {
@@ -369,8 +369,8 @@ main {
 #description p {
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
+  font-weight: 600;
+  font-size: 1rem;
   line-height: 150%;
   color: #262262;
 }
@@ -382,7 +382,7 @@ main {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 150%;
   color: rgba(38, 34, 98, 0.6);
 }
@@ -390,11 +390,11 @@ main {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 140%;
   color: #f37821;
   position: absolute;
-  top: 930px;
+  top: 960px;
   left: 2vw;
 }
 #moreCompanies {
@@ -407,8 +407,8 @@ main {
   gap: 50px;
   width: fit-content;
   position: absolute;
-  top: 990px;
-  left: 2vw;
+  top: 1000px;
+  left: 5vw;
   overflow-x: hidden;
 }
 #moreCompanies .cardCont .card {
@@ -435,7 +435,7 @@ main {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 150%;
   color: #262262;
 }
@@ -451,7 +451,7 @@ main {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 160%;
   color: rgba(38, 34, 98, 0.8);
 }
@@ -465,8 +465,8 @@ main {
   color: #adadad;
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 500;
-  font-size: 13.4334px;
+  font-weight: 600;
+  font-size: 0.875rem;
   line-height: 160%;
 }
 #moreCompanies .card .desc {
@@ -502,40 +502,13 @@ main {
   animation: card 10s infinite;
   position: absolute;
   top: 2000px;
-  left: 2vw;
+  left: 5vw;
   width: 300%;
   overflow: hidden;
-  /* width: 400%; */
-  /* animation: card 20s infinite; */
+
   background: #f8c097;
   overflow: ;
 }
-/* @keyframes card {
-  0% {
-    left: 0%;
-  }
-  20% {
-    left: 0%;
-  }
-  25% {
-    left: -100%;
-  }
-  45% {
-    left: -100%;
-  }
-  50% {
-    left: -200%;
-  }
-  75% {
-    left: -200%;
-  }
-  95% {
-    left: -200%;
-  }
-  100% {
-    left: -300%;
-  }
-} */
 
 #cards {
   height: 427px;
