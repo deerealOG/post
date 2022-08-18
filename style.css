@@ -16,7 +16,7 @@ body {
 #navbar {
   position: absolute;
   background: #262262;
-  height: 80px;
+  height: 60px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -51,7 +51,7 @@ body {
 }
 #avatar img {
   height: auto;
-  width: 50px;
+  width: 40px;
 }
 #username {
   padding: 0;
@@ -71,12 +71,10 @@ body {
   cursor: pointer;
 }
 #logo img {
-  height: 3.375rem;
+  height: 40px;
 }
 
-#hamburger {
-  color: #ffffff;
-}
+
 #desktop {
   display: none;
 }
@@ -99,10 +97,10 @@ body {
 
 .hamburger div {
   position: relative;
-  top: -6px;
+  top: -0.8em;
   right: 5%;
-  width: 2.6em;
-  height: 6px;
+  width: 2em;
+  height: 4px;
   border-radius: 3px;
   background: #f37821;
   margin-top: 8px;
@@ -162,7 +160,7 @@ Animations
 }
 #toggle:checked + .hamburger .meat {
   transform: rotate(45deg);
-  margin-top: -6px;
+  margin-top: -4px;
 }
 
 #toggle:checked + .hamburger + .nav {
@@ -183,20 +181,22 @@ Animations
 }
 #toggle:checked + .hamburger .meat {
   transform: rotate(45deg);
-  margin-top: -6px;
+  margin-top: -4px;
 }
 
 #toggle:checked + .hamburger + .nav {
   top: 0;
   transform: scale(1);
 }
-.down {
+.down, .dropdown {
   color: white;
-  display: none;
+  transition: all .5s ease;
 }
-.caret {
-  display: none;
+.rotate {
+  transform: rotate(180deg);
+  transition: all .5s ease;
 }
+
 #title {
   font-family: "Poppins";
   font-style: normal;
@@ -209,7 +209,7 @@ Animations
   width: 100%;
   height: 40px;
   left: 0px;
-  top: 133px;
+  top: 100px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -218,7 +218,7 @@ Animations
 }
 #dropDownCont {
   position: fixed;
-  top: 80px;
+  top: 60px;
   right: 0px;
   z-index: 100;
   background: #262262;
@@ -724,8 +724,8 @@ aside {
   #userdetails {
     right: 5%;
   }
-  #username {
-    height: auto;
+  #logo img {
+    height: 45px;
   }
 
   .hamburger {
@@ -734,6 +734,12 @@ aside {
   .down {
     color: white;
     display: block;
+  }
+  .nav {
+    display: none;
+  }
+  #title {
+    top: 120px;
   }
 
   #moreCompanies .cardCont {
@@ -752,12 +758,8 @@ aside {
     top: 0;
     z-index: 10;
   }
-  aside {
-    width: 30vw;
-  }
-  #bigContainer span {
-    width: 30vw;
-  }
+  
+ 
   #category {
     width: 600px;
   }
